@@ -1,4 +1,7 @@
-# Image-Transformation
+### EXP NO: 05
+### DATE:
+
+# <p align='center'> Image-Transformation</p>
 ## Aim
 To perform image transformation such as Translation, Scaling, Shearing, Reflection, Rotation and Cropping using OpenCV and Python.
 
@@ -46,8 +49,6 @@ plt.imshow(img)
 plt.show()
 
 i)Image Translation
-
-
 shape=img.shape
 rows, cols, dim = shape
 
@@ -72,8 +73,6 @@ plt.axis ('off')
 plt.imshow (scaled_img)
 plt.show()
 
-
-
 iii)Image Shearing
 
 
@@ -93,7 +92,6 @@ plt.axis ('off')
 plt.imshow (shy_img)
 plt.show()
 
-
 iv)Image Reflection
 
 Mx=np.float32([[1,0,0],
@@ -112,7 +110,6 @@ plt.axis ('off')
 plt.imshow (refy_img)
 plt.show()
 
-
 v)Image Rotation
 
 angle=np.radians(27)
@@ -125,8 +122,6 @@ plt.axis ('off')
 plt.imshow (rotimg)
 plt.show()
 
-
-
 vi)Image Cropping
 
 cropimg=img[60:400,60:400]
@@ -134,10 +129,6 @@ plt.axis ('off')
 
 plt.imshow (cropimg)
 plt.show()
-
-
-
-
 ```
 ## Output:
 ### i)Image Translation
